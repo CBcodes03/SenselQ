@@ -82,6 +82,18 @@ This project implements a real-time emotion analysis system using a React fronte
 
 This project successfully implements a real-time emotion analysis system using a React frontend and a Flask backend. By capturing and analyzing webcam images, it demonstrates the potential for interactive applications in mental health, user experience design, and real-time feedback systems. The system's modular design allows for easy enhancements, making it a versatile framework for emotion-based interactive applications.
 
+# Child Safety Object Detection
+
+## Overview
+
+This project uses **Flask** to implement a real-time object detection system fo>
+
+## Technologies Used
+
+- **Flask**: Web framework to serve the application.
+- **HTML-CSS-JS**: Serves UI and Frontend
+
+
 ## Manual Deployment
 
 ```bash
