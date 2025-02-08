@@ -1,17 +1,3 @@
-## Deploy using Docker file
-
-```bash
-curl -O https://raw.githubusercontent.com/CBcodes03/combined/main/Dockerfile
-```
-
-```bash
-docker build -t my-image .
-```
-
-```bash
-docker run -p 5000:5000 --name my-container my-image  # Change names accordingly
-```
-
 ## Manual Deployment
 
 ```bash
@@ -27,5 +13,5 @@ pip install -r requirements.txt
 ```
 
 ```bash
-python app.py
+gunicorn -w 4 -b 0.0.0.0:8000 app:app
 ```
