@@ -182,6 +182,9 @@ cd folder  # The folder you want to clone project into
 ```bash
 git clone https://github.com/CBcodes03/combined.git .
 ```
+```bash
+nano .env #Make an .env file and paste the Mongo URI and save it 
+```
 
 ```bash
 pip install -r requirements.txt
