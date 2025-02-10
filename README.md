@@ -180,7 +180,7 @@ cd folder  # The folder you want to clone project into
 ```
 
 ```bash
-git clone https://github.com/CBcodes03/combined.git .
+git https://github.com/CBcodes03/SenselQ.git .
 ```
 ```bash
 nano .env #Make an .env file and paste the Mongo URI and save it 
